@@ -6,6 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+remote_theme: pages-themes/slate@v0.2.0
+
 locale                   : "en-US"
 title                    : "Your Name / Site Title"
 title_separator          : "-"
@@ -260,6 +262,7 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 # Plugins
 plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
